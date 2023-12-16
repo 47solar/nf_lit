@@ -2,9 +2,9 @@
 
 Example use :
 
-Ban request "attack" on port 80:
-        ./test.sh --ban INPUT --port 80 --sring "attack"
-Ban requests to port 80:
+Ban request "attack" on port 80 :
+       --ban INPUT --port 80 --sring "attack"
+Ban requests to port 80 :
         ./test.sh --ban OUTPUT --protocol tcp --port 80
 Unban first chain:
         ./test.sh -u INPUT 1
