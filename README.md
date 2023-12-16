@@ -3,11 +3,13 @@
 Example use :
 
 Ban request "attack" on port 80 :
-       --ban INPUT --port 80 --sring "attack"
+./test.sh -b INPUT -p 80 -w "attack"
+
 Ban requests to port 80 :
-        ./test.sh --ban OUTPUT --protocol tcp --port 80
-Unban first chain:
-        ./test.sh -u INPUT 1
+./test.sh -b OUTPUT -P tcp -p 80
+        
+Unban first chain :
+./test.sh -u INPUT 1
 
 --ban        -b         add port or word to the blacklist
         INPUT           incoming traffic
