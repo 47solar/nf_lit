@@ -1,6 +1,6 @@
 You must have iptables pre-installed
 
-exammle use:
+Example use:
 
 ./test.sh --ban INPUT --port 80 --sring "attack"  //ban request "attack" on port 80
 ./test.sh --ban OUTPUT --protocol tcp --port 80   //ban requests to port 80
