@@ -1,10 +1,13 @@
-You must have iptables pre-installed
+# You must have iptables pre-installed
 
 Example use:
 
-./test.sh --ban INPUT --port 80 --sring "attack"  //ban request "attack" on port 80
-./test.sh --ban OUTPUT --protocol tcp --port 80   //ban requests to port 80
-./test.sh -u INPUT 1                              //unban first chain
+Ban request "attack" on port 80:
+        ./test.sh --ban INPUT --port 80 --sring "attack"
+Ban requests to port 80:
+        ./test.sh --ban OUTPUT --protocol tcp --port 80
+Unban first chain:
+        ./test.sh -u INPUT 1
 
 --ban        -b         add port or word to the blacklist
         INPUT           incoming traffic
