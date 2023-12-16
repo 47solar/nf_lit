@@ -1,10 +1,10 @@
 # ip_lit
 
-*exammle use:
+exammle use:
 
-./test.sh --ban INPUT --port 80 --sring "attack"  //ban request "attack" on port 80 **
-./test.sh --ban OUTPUT --protocol tcp --port 80   //ban requests to port 80 **
-./test.sh -u INPUT 1                              //unban first chain **
+./test.sh --ban INPUT --port 80 --sring "attack"  //ban request "attack" on port 80
+./test.sh --ban OUTPUT --protocol tcp --port 80   //ban requests to port 80
+./test.sh -u INPUT 1                              //unban first chain
 
 --ban        -b         add port or word to the blacklist
         INPUT           incoming traffic
