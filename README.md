@@ -7,11 +7,11 @@
 #./test.sh -u INPUT 1                              //unban first chain
 #
 #--ban        -b         add port or word to the blacklist
-#        INPUT           incoming traffic
-#        OUTPUT          outgoing traffic
-#        FORWARD         traffic passing through the system
+        INPUT           incoming traffic
+        OUTPUT          outgoing traffic
+        FORWARD         traffic passing through the system
 #--unban      -u         unlock the word
-#        [name or num]               like --unban INPUT 4
+        [name or num]               like --unban INPUT 4
 #--port       -p         specify the required port
 #--protocol   -P         data transfer protocol (tcp, udp, etc...)
 #--word       -w         argument is the desired word
