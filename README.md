@@ -29,5 +29,5 @@ Unban first chain :
 --list       -L         displays a list of all locks
 ```
 
-```Created by @47solar (tungue) ``` <b>\n</b>
+```Created by @47solar (tungue) ```
 Telegram: <a href="https://t.me/tungueoffensive">tungue</a>
