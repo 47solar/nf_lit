@@ -2,11 +2,15 @@
 
 ## Example use :
 
-## Ban request "attack" on port 80 :
-./test.sh -b INPUT -p 80 -w "attack"
+```Ban request "attack" on port 80 :
+        ./test.sh -b INPUT -p 80 -w "attack"
 
-## Ban requests to port 80 :
-./test.sh -b OUTPUT -P tcp -p 80
+Ban requests to port 80 :
+        ./test.sh -b OUTPUT -P tcp -p 80
         
-## Unban first chain :
-./test.sh -u INPUT 1 ###
+Unban first chain :
+        ./test.sh -u INPUT 1
+```
+
+```Created by @tungue ```
+Telegram:     <url src=https://t.me/tungueoffensive>
