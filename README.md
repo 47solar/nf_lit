@@ -1,4 +1,4 @@
-# ip_lit
+You must have iptables pre-installed
 
 exammle use:
 
