@@ -12,5 +12,5 @@ Unban first chain :
         ./test.sh -u INPUT 1
 ```
 
-```Created by @tungue ```
-Telegram:     <url src=https://t.me/tungueoffensive>
+```Created by @47solar ```
+Telegram: <url src=https://t.me/tungueoffensive title="tungue">
