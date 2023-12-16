@@ -13,4 +13,4 @@ Unban first chain :
 ```
 
 ```Created by @47solar ```
-Telegram: <url src=https://t.me/tungueoffensive title="tungue">
+Telegram: <url href=https://t.me/tungueoffensive title="tungue">
