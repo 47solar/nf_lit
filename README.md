@@ -1,6 +1,6 @@
-# You must have iptables pre-installed
+# You must have iptables pre-installed !
 
-Example use:
+Example use :
 
 Ban request "attack" on port 80:
         ./test.sh --ban INPUT --port 80 --sring "attack"
