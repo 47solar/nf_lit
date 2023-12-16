@@ -8,5 +8,5 @@
 ### Ban requests to port 80 :
 ./test.sh -b OUTPUT -P tcp -p 80
         
-### Unban first chain :
+Unban first chain :
 ./test.sh -u INPUT 1 ###
