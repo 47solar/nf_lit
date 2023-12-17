@@ -22,7 +22,8 @@ Unban first chain :
         INPUT           incoming traffic
         OUTPUT          outgoing traffic
         FORWARD         traffic passing through the system
---unban      -u         unlock the word
+--unban      -u         unlock the word or port
+        INPUT, OUTPUT, FORWARD
         [name or num]               like --unban INPUT 4
 --port       -p         specify the required port
 --protocol   -P         data transfer protocol (tcp, udp, etc...)
