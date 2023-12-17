@@ -34,7 +34,7 @@ Unban first chain :
 --port       -p         specify the required port
 --protocol   -P         data transfer protocol (tcp, udp, etc...)
 --word       -w         argument is the desired word
-                                    like --word \"porn\"
+                                    like --word "porn"
 --list       -L         displays a list of all locks
 ```
 ```Created by @47solar```<br>
