@@ -1,10 +1,10 @@
 <style>
-a::after {
-content: "";
-display: block;
-height: 2px;
-background-color: transparent;
-}
+        a::after {
+        content: "";
+        display: block;
+        height: 2px;
+        background-color: transparent;
+        }
 </style>
 
 # You must have iptables pre-installed !
