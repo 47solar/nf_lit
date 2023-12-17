@@ -2,6 +2,12 @@
 
 # You must have iptables pre-installed !
 
+## Install git :
+```
+git clone https://github.com/47solar/ip_lit.git
+cd ip_lit
+```
+
 ## Example use :
 
 Ban request "attack" on port 80 :
