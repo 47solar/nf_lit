@@ -1,6 +1,6 @@
-# P.S. This is a beta version of the script
+# This is a beta version of the script
 
-# You must have iptables pre-installed !
+## You must have iptables pre-installed !
 
 ## Install git :
 ```
