@@ -28,5 +28,6 @@ Unban first chain :
                                     like --string "porn"
 --list       -L         displays a list of all locks
 ```
-```Created by @47solar```<br>
+```Created by @47solar```
+<&nbsp;>
 <strong>Telegram : <a href="https://t.me/tungueoffensive">tungue</a></strong>
