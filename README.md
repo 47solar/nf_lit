@@ -1,10 +1,3 @@
-<style>
-.a {
-        color: red;
-        font-weight: bold;
-        }
-</style>
-
 # You must have iptables pre-installed !
 
 ## Example use :
