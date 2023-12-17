@@ -1,9 +1,7 @@
 <style>
-        a::after {
-        content: "";
-        display: block;
-        height: 2px;
-        background-color: transparent;
+.a {
+        color: red;
+        font-weight: bold;
         }
 </style>
 
