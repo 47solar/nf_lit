@@ -1,4 +1,4 @@
-<a># You must have iptables pre-installed !
+# You must have iptables pre-installed !
 
 ## Example use :
 
@@ -29,5 +29,4 @@ Unban first chain :
 --list       -L         displays a list of all locks
 ```
 ```Created by @47solar```
-&nbsp;
-<strong>Telegram : <a href="https://t.me/tungueoffensive">tungue</a></strong><a/>
+<br><br><strong>Telegram : <a href="https://t.me/tungueoffensive">tungue</a></strong>
