@@ -1,12 +1,13 @@
 # This is a beta version of the script
 
 ## A simplified version of iptables. 
-<strong>
+<strong><bold>
 * Locking a specific sequence of bytes on a specific port.<br>
 * Blocking a specific port.<br>
 * Unblocking a port or bytes.<br>
 * View the list of locks.<br>
-</strong>
+</bold></strong>
+
 ## You must have iptables pre-installed !
 
 ## Install git :
