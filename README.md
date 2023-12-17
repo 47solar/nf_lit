@@ -1,3 +1,5 @@
+# P.S. This is a beta version of the script
+
 # You must have iptables pre-installed !
 
 ## Example use :
