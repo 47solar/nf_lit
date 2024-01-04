@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $1 == "--help" ]||[ $1 == "-h" ]
+if [ "$1" == "--help" ]||[ "$1" == "-h" ]
 then
 	echo "
   =====================================================
@@ -38,20 +38,20 @@ Exapmle use:
 --word       -w         argument is the desired word
                                     like --word \"porn\"
 --list       -L         displays a list of all locks"
-elif [ $1 == "--list" ]||[ $1 == "-L" ] 
+elif [ "$1" == "--list" ]||[ "$1" == "-L" ]
 then
 	sudo /sbin/iptables --list --line-numbers 
-elif [ $1 == "--ban" ]||[ $1 == "-b" ]&&[ $2 == "INPUT" ]||[ $2 == "OUTPUT" ]||[ $2 == "FORWARD" ]&&[ $3 == "--protocol" ]||[ $3 == "-P" ]&&[ $5 == "--port" ]||[ $5 == "-p" ]
+elif [ "$1" == "--ban" ]||[ "$1" == "-b" ]&&[ "$2" == "INPUT" ]||[ "$2" == "OUTPUT" ]||[ "$2" == "FORWARD" ]&&[ "$3" == "--protocol" ]||[ "$3" == "-P" ]&&[ "$5" == "--port" ]||[ "$5" == "-p" ]
 then
 	sudo /sbin/iptables -A "$2" -p "$4" --dport "$6" -j DROP
 	echo "
 	Completed!"
-elif [ $1 == "--ban" ]||[ $1 == "-b" ]&&[ $2 == "INPUT" ]||[ $2 == "OUTPUT" ]||[ $2 == "FORWARD" ]&&[ $3 == "--protocol" ]||[ $3 == "-P" ]&&[ $5 == "--word" ]||[ $5 == "-w" ]
+elif [ "$1" == "--ban" ]||[ "$1" == "-b" ]&&[ "$2" == "INPUT" ]||[ "$2" == "OUTPUT" ]||[ "$2" == "FORWARD" ]&&[ "$3" == "--protocol" ]||[ "$3" == "-P" ]&&[ "$5" == "--word" ]||[ "$5" == "-w" ]
 then 
 	sudo /sbin/iptables -I "$2" -p "$4" -m string --string "$6" --algo bm -j DROP
 	echo "
 	Completed!"
-elif [ $1 == "--unban" ]||[ $1 == "-u" ]&&[ $2 == "INPUT" ]||[ $2 == "OUTPUT" ]||[ $2 == "FORWARD" ]
+elif [ "$1" == "--unban" ]||[ "$1" == "-u" ]&&[ "$2" == "INPUT" ]||[ "$2" == "OUTPUT" ]||[ "$2" == "FORWARD" ]
 then
 	sudo /sbin/iptables -D "$2" "$3"
 	echo "
