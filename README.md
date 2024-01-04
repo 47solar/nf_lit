@@ -20,15 +20,15 @@ cd ip_lit
 
 Ban request "attack" on port 80 :
 ```
-./ip_lit.sh -b INPUT -P udp -p 80 -w "attack"
+./IpLit.sh -b INPUT -P udp -p 80 -w "attack"
 ```
 Ban requests to port 80 :
 ```
-./ip_lit.sh -b OUTPUT -P tcp -p 80
+./IpLit.sh -b OUTPUT -P tcp -p 80
 ```
 Unban first chain :
 ```
-./ip_lit.sh -u INPUT 1
+./IpLit.sh -u INPUT 1
 ```
 ## Arguments :
 ```
