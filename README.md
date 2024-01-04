@@ -20,7 +20,7 @@ cd ip_lit
 
 Ban request "attack" on port 80 :
 ```
-./ip_lit.sh -b INPUT -p 80 -w "attack"
+./ip_lit.sh -b INPUT -P udp -p 80 -w "attack"
 ```
 Ban requests to port 80 :
 ```
