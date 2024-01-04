@@ -22,9 +22,9 @@ Help list
 	
 Exapmle use:
 
-./test.sh --ban INPUT --protocol udp --port 80 --word \"attack\"  //ban request \"attack\" on port 80 and protocol udp
-./test.sh --ban OUTPUT --protocol tcp --port 80     		  //ban requests to port 80 and protocol tcp
-./test.sh -u INPUT 1                               		  //unban first chain
+./IpLit.sh --ban INPUT --protocol udp --port 80 --word \"attack\"  //ban request \"attack\" on port 80 and protocol udp
+./IpLit.sh --ban OUTPUT --protocol tcp --port 80     		   //ban requests to port 80 and protocol tcp
+./IpLit.sh -u INPUT 1                               		   //unban first chain
 
 --ban        -b         add port or word to the blacklist
         INPUT           incoming traffic
