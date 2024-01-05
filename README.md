@@ -10,7 +10,7 @@
 
 ## You must have iptables pre-installed !
 
-## Install git :
+## Install IpLit :
 ``` Shell
 git clone https://github.com/47solar/ip_lit.git
 cd ip_lit
