@@ -18,7 +18,8 @@ cd ip_lit
 
 ## Example use :
 
-![Image alt](https://github.com/47solar/ip_lit/assets/153699315/ae7813ef-9363-4afb-8828-ce5523cce0d2)
+![Image alt](https://github.com/47solar/ip_lit/assets/153699315/bf561eca-f5aa-4ced-817f-473326b2808a)
+
 
 Ban request "attack" on port 80 :
 ``` Shell
