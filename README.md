@@ -18,8 +18,7 @@ cd ip_lit
 
 ## Example use :
 
-<a img
-  src="https://github.com/47solar/ip_lit/assets/153699315/de9f09c1-a1c0-4705-ac9b-aaa3c6b8e28a"/>
+![Image alt](https://github.com/47solar/ip_lit/assets/153699315/ae7813ef-9363-4afb-8828-ce5523cce0d2)
 
 Ban request "attack" on port 80 :
 ```
