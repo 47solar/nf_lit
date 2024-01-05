@@ -14,7 +14,7 @@
 ## You must have iptables pre-installed !
 
 ## Install git :
-```
+``` Shell
 git clone https://github.com/47solar/ip_lit.git
 cd ip_lit
 ```
@@ -24,15 +24,15 @@ cd ip_lit
 ![Image alt](https://github.com/47solar/ip_lit/assets/153699315/ae7813ef-9363-4afb-8828-ce5523cce0d2)
 
 Ban request "attack" on port 80 :
-```
+``` Shell
 ./IpLit.sh -b INPUT -P udp -p 80 -w "attack"
 ```
 Ban requests to port 80 :
-```
+``` Shell
 ./IpLit.sh -b OUTPUT -P tcp -p 80
 ```
 Unban first chain :
-```
+``` Shell
 ./IpLit.sh -u INPUT 1
 ```
 ## Arguments :
