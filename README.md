@@ -18,6 +18,9 @@ cd ip_lit
 
 ## Example use :
 
+<a img
+  src="https://github.com/47solar/ip_lit/assets/153699315/de9f09c1-a1c0-4705-ac9b-aaa3c6b8e28a"/>
+
 Ban request "attack" on port 80 :
 ```
 ./IpLit.sh -b INPUT -P udp -p 80 -w "attack"
