@@ -2,9 +2,9 @@
 
 ## A simplified version of iptables.
 <a><strong><bold>
-* Blocking a specific sequence of bytes on a specific port.<br>
-* Blocking a specific port.<br>
-* Unblocking a port or bytes.<br>
+* Blocking a specific sequence of bytes on a specific port;<br>
+* Blocking a specific port;<br>
+* Unblocking a port or bytes;<br>
 * View the list of blocks.<br>
 </bold></strong></a>
 
