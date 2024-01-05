@@ -10,30 +10,30 @@
 
 ## You must have iptables pre-installed !
 
-## Install IpLit :
+## Install IpLit
 ``` Shell
 git clone https://github.com/47solar/ip_lit.git
 cd ip_lit
 ```
 
-## Example use :
+## Example use
 
 ![Image alt](https://github.com/47solar/ip_lit/assets/153699315/bf561eca-f5aa-4ced-817f-473326b2808a)
 
 
-Ban request "attack" on port 80 :
+Ban request "attack" on port 80
 ``` Shell
 ./IpLit.sh -b INPUT -P udp -p 80 -w "attack"
 ```
-Ban requests to port 80 :
+Ban requests to port 80
 ``` Shell
 ./IpLit.sh -b OUTPUT -P tcp -p 80
 ```
-Unban first chain :
+Unban first chain
 ``` Shell
 ./IpLit.sh -u INPUT 1
 ```
-## Arguments :
+## Arguments
 ```
 --ban        -b         add port or word to the blacklist
         INPUT           incoming traffic
