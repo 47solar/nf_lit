@@ -33,6 +33,10 @@ Unban first chain
 ``` Shell
 ./IpLit.sh -u INPUT 1
 ```
+Limiting the number of connections to a specific port
+``` Shell
+./IpLit.sh --filter OUTPUT --protocol tcp --port 443 --quan 3
+```
 ## Arguments
 ```
 --ban        -b         add port or word to the blacklist
@@ -47,6 +51,8 @@ Unban first chain
 --word       -w         argument is the desired word
                                     like --word "porn"
 --list       -L         displays a list of all locks
+--filter     -f         limiting the number of connections to a specific port
+    --quan       -a         number of connections"
 ```
 ```Created by @47solar```<br>
 <br><strong>Telegram : <a href="https://t.me/tungueoffensive">tungue</a></strong>
