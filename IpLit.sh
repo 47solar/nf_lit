@@ -23,9 +23,9 @@ Help list
 Exapmle use:
 
 ./IpLit.sh --ban INPUT --protocol udp --port 80 --word \"attack\"  //ban request \"attack\" on port 80 and protocol udp
-./IpLit.sh --ban OUTPUT --protocol tcp --port 80     		       //ban requests to port 80 and protocol tcp
-./IpLit.sh --unban INPUT 1                               		   //unban first chain
-./IpLit.sh --filter OUTPUT --protocol tcp --port 443 --quan 3
+./IpLit.sh --ban OUTPUT --protocol tcp --port 80     		   //ban requests to port 80 and protocol tcp
+./IpLit.sh --unban INPUT 1                               	   //unban first chain
+./IpLit.sh --filter OUTPUT --protocol tcp --port 443 --quan 3      //Limiting the number of connections to a specific port
 Arguments:
 
 --ban        -b         add port or word to the blacklist
