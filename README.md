@@ -29,13 +29,13 @@ Ban requests to port 80
 ``` Shell
 ./IpLit.sh -b OUTPUT -P tcp -p 80
 ```
-Unban first chain
-``` Shell
-./IpLit.sh -u INPUT 1
-```
 Limiting the number of connections to a specific port
 ``` Shell
 ./IpLit.sh --filter OUTPUT --protocol tcp --port 443 --quan 3
+```
+Unban first chain
+``` Shell
+./IpLit.sh -u INPUT 1
 ```
 ## Arguments
 ```
