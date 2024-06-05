@@ -9,7 +9,7 @@
 * View the list of blocks.<br>
 </bold></strong></a>
 
-## You must have iptables pre-installed !
+## You must have nftables pre-installed !
 
 ## Clone IpLit
 ``` Shell
@@ -24,36 +24,41 @@ cd ip_lit
 
 Ban request "attack" on port 80
 ``` Shell
-./IpLit.sh -b INPUT -P udp -p 80 -w "attack"
+./NfLit.sh ban INPUT protocol udp port 80 word "attack"
 ```
 Ban requests to port 80
 ``` Shell
-./IpLit.sh -b OUTPUT -P tcp -p 80
+./NfLit.sh ban OUTPUT protocol tcp port 80
 ```
 Limiting the number of connections to a specific port
 ``` Shell
-./IpLit.sh --filter OUTPUT --protocol tcp --port 443 --quan 3
+./NfLit.sh filter OUTPUT protocol tcp port 443
 ```
 Unban first chain
 ``` Shell
-./IpLit.sh -u INPUT 1
+./NfLit.sh unban INPUT 1
 ```
 ## Arguments
 ```
---ban        -b         add port or word to the blacklist
-        INPUT           incoming traffic
-        OUTPUT          outgoing traffic
-        FORWARD         traffic passing through the system
---unban      -u         unlock the word or port
-        INPUT, OUTPUT, FORWARD
-        [name or num]               like --unban INPUT 4
---port       -p         specify the required port
---protocol   -P         data transfer protocol (tcp, udp, etc...)
---word       -w         argument is the desired word
-                                    like --word "porn"
---list       -L         displays a list of all locks
---filter     -f         limiting the number of connections to a specific port
-    --quan       -a         number of connections"
+ban         add port or word to the blacklist
+                INPUT           incoming traffic
+                OUTPUT          outgoing traffic
+                FORWARD         traffic passing through the system
+
+unban       unlock the word or port
+                INPUT, OUTPUT, FORWARD [name or num]               
+				like --unban INPUT 4
+
+port        specify the required port
+
+protocol    data transfer protocol (tcp, udp, etc...)
+
+word        argument is the desired word
+                like word \"porn\"
+
+list        displays a list of all locks
+
+help        show this hint"
 ```
 ```Created by @47solar```<br>
 <br><strong>Telegram : <a href="https://t.me/tungueoffensive">tungue</a></strong>
