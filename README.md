@@ -20,7 +20,6 @@ cd ip_lit
 ## Example use
 
 ![Image alt](https://github.com/47solar/ip_lit/assets/153699315/e3ddc797-4891-467e-9c05-96781ad682bc)
-)
 
 
 Ban request "attack" on port 80
