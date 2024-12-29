@@ -13,8 +13,8 @@
 
 ## Clone IpLit
 ``` Shell
-git clone https://github.com/47solar/ip_lit.git
-cd ip_lit
+git clone https://github.com/47solar/nf_lit.git
+cd nf_lit
 ```
 
 ## Example use
@@ -24,7 +24,7 @@ cd ip_lit
 
 Ban request "attack" on port 80
 ``` Shell
-./NfLit.sh ban INPUT protocol udp port 80 word "attack"
+./NfLit.sh ban INPUT protocol udp port 80 word "root"
 ```
 Ban requests to port 80
 ``` Shell
